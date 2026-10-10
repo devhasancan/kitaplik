@@ -9,6 +9,7 @@ import UIKit
 
 // iOS scene oluşturuyor. Normalde Storyboard'da arkada bir window kurup içine koyuyordu.
 // Şimdi Storyboard olmadığı için scene içerisine window'u benim koymam gerekiyor.
+// [Scene -> Window -> rootViewController -> makeKeyAndVisible()]
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
