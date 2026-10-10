@@ -6,14 +6,16 @@
 //
 
 import Testing
-@testable import Kitaplik
+@testable import Kitaplik // App'teki kodlara testten erişmek için. @testable ile normalde dışarıdan erişilemeyen (internal) tipleri de testte kullanabiliriz.
 
 struct KitaplikTests {
-
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
-        // Swift Testing Documentation
-        // https://developer.apple.com/documentation/testing
+    
+    @Test func testTargetSetUpCorrectly() {
+        let sum = 2 + 2
+        #expect(sum == 4) // Beklediğim şeyi yazıyorum.
     }
-
+    
+    
+    
+    
 }
