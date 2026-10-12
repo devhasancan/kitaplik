@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3A161AD1307D31DD00CB1C99 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3A161AD0307D31DD00CB1C99 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3A161AAD3077A53A00CB1C99 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		3A161A963077A53800CB1C99 /* Kitaplik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kitaplik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A161AAC3077A53A00CB1C99 /* KitaplikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitaplikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A161AB63077A53A00CB1C99 /* KitaplikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitaplikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A161AD0307D31DD00CB1C99 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +93,7 @@
 		3A161A8D3077A53800CB1C99 = {
 			isa = PBXGroup;
 			children = (
+				3A161AD0307D31DD00CB1C99 /* README.md */,
 				3A161A983077A53800CB1C99 /* Kitaplik */,
 				3A161AAF3077A53A00CB1C99 /* KitaplikTests */,
 				3A161AB93077A53A00CB1C99 /* KitaplikUITests */,
@@ -225,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A161AD1307D31DD00CB1C99 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
